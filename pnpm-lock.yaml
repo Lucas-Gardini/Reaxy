@@ -1,10 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify/vue': ^3.2.1
   '@tauri-apps/api': ^1.0.1
   '@tauri-apps/cli': ^1.0.0
   '@vitejs/plugin-vue': ^2.3.3
   install: ^0.13.0
+  maska: ^1.5.0
   primeicons: ^5.0.0
   primevue: ^3.15.0
   typescript: ^4.5.4
@@ -16,12 +18,14 @@ specifiers:
 dependencies:
   '@tauri-apps/api': 1.0.1
   install: 0.13.0
+  maska: 1.5.0
   primeicons: 5.0.0
   primevue: 3.15.0_pup2jerpb5yobt7sxmawn3p42u
   vue: 3.2.37
   vue-router: 4.0.16_vue@3.2.37
 
 devDependencies:
+  '@iconify/vue': 3.2.1_vue@3.2.37
   '@tauri-apps/cli': 1.0.0
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
   typescript: 4.7.4
@@ -47,6 +51,14 @@ packages:
     dependencies:
       '@babel/helper-validator-identifier': 7.16.7
       to-fast-properties: 2.0.0
+
+  /@iconify/vue/3.2.1_vue@3.2.37:
+    resolution: {integrity: sha512-c4R6ZgFo1JrJ8aPMMgOPgfU7lBswihMGR+yWe/P4ZukC3kTkeT4+lkt9Pc/itVFMkwva/S/7u9YofmYv57fnNQ==}
+    peerDependencies:
+      vue: 3.x
+    dependencies:
+      vue: 3.2.37
+    dev: true
 
   /@tauri-apps/api/1.0.1:
     resolution: {integrity: sha512-TJwKkXxtF52kN9Auu5TWD2AE4ssqTrsfdpIrixYwRb3gQ/FuYwvZjrMc9weYpgsW2cMhVNkvKgneNXF/4n04lw==}
@@ -518,6 +530,10 @@ packages:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
     dependencies:
       sourcemap-codec: 1.4.8
+
+  /maska/1.5.0:
+    resolution: {integrity: sha512-BwZXzs5gHeu6wtn3iWFqrKRtcsM3sTpkHvfAngVNVNlN7tl9ZyQUeHTz11s9Sy7Bq1MoQ+xyR/+IzghY8nR84Q==}
+    dev: false
 
   /nanoid/3.3.4:
     resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==}
