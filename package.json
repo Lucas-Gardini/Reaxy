@@ -13,7 +13,8 @@
     "install": "^0.13.0",
     "primeicons": "^5.0.0",
     "primevue": "^3.15.0",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.0",
